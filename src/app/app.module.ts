@@ -3,12 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ComponentAComponent } from './component-a/component-a.component';
+import { SignalExampleComponent } from './signal-example/signal-example.component';
+import { InputExampleComponent } from './input-example/input-example.component';
+import { ObservableExampleComponent } from './observable-example/observable-example.component';
+import { InputExampleChildComponent } from './input-example/input-example-child/input-example-child.component';
+import { ObservableExampleChildComponent } from './observable-example/observable-example-child/observable-example-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentAComponent,
+    SignalExampleComponent,
+    InputExampleComponent,
+    ObservableExampleComponent,
+    InputExampleChildComponent,
+    ObservableExampleChildComponent,
   ],
   imports: [
     BrowserModule,
