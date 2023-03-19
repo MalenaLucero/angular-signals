@@ -14,6 +14,7 @@ export class ObservableExampleChildComponent implements OnInit, OnDestroy{
 
   ngOnInit(): void {
     this.$subject = this.observableExampleService.$subject;
+    this.$subject.subscribe(() => console.log('$subject subscribe in observable-example-child.component'))
   }
 
   update() {
