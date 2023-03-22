@@ -33,4 +33,32 @@ export class SignalExampleComponent implements OnInit{
   //   console.log('normal function execution');
   //   return 'normal function return string';
   // }
+
+
+
+
+
+
+
+
+
+  //Los signals son wrappers de un valor (number, string, object)
+  //Son tipos primitivos reactivos
+  //Registra las partes del codigo que dependen de él
+    //y las notifica cuando hay cambios
+  //No dependen de zone.js (mejoraria la performance porque los cambios serian especificos)
+  //Sintaxis mas simple que los observables
+
+
+
+
+
+
+
+
+
+  //Continuará:
+   //Dónde se definen? En componentes o servicios?
+   //Cómo se exponen?
+   //Cómo se consumen desde otros componentes?
 }

@@ -25,6 +25,7 @@ export class ObservableExampleChildComponent implements OnInit, OnDestroy{
       })
       this.$subject.next(currentValue + 1)
     }
+    //this.observableExampleService.update();
   }
 
   ngOnDestroy(): void {
