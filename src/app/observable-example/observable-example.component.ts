@@ -4,8 +4,7 @@ import { BehaviorSubject, take } from 'rxjs';
 
 @Component({
   selector: 'app-observable-example',
-  templateUrl: './observable-example.component.html',
-  styleUrls: ['./observable-example.component.css']
+  templateUrl: './observable-example.component.html'
 })
 export class ObservableExampleComponent implements OnInit, OnDestroy{
   $subject: BehaviorSubject<number> | undefined;

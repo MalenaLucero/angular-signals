@@ -2,8 +2,7 @@ import { Component, effect, OnInit, signal } from '@angular/core';
 
 @Component({
   selector: 'app-signal-example',
-  templateUrl: './signal-example.component.html',
-  styleUrls: ['./signal-example.component.css']
+  templateUrl: './signal-example.component.html'
 })
 export class SignalExampleComponent implements OnInit{
   numberSignal = signal(0);

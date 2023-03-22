@@ -2,8 +2,7 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
 
 @Component({
   selector: 'app-input-example-child',
-  templateUrl: './input-example-child.component.html',
-  styleUrls: ['./input-example-child.component.css']
+  templateUrl: './input-example-child.component.html'
 })
 export class InputExampleChildComponent implements OnChanges{
   _inputValue: number = 0;

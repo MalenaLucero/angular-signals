@@ -4,8 +4,7 @@ import { ObservableExampleService } from '../observable-example.service';
 
 @Component({
   selector: 'app-observable-example-child',
-  templateUrl: './observable-example-child.component.html',
-  styleUrls: ['./observable-example-child.component.css']
+  templateUrl: './observable-example-child.component.html'
 })
 export class ObservableExampleChildComponent implements OnInit, OnDestroy{
   $subject: BehaviorSubject<number> | undefined;
